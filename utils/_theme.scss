@@ -1,1 +1,14 @@
-//realtimecolors.com
+$themes: (
+    light: (text: #020408,
+        background: #f2f7fd,
+        primary: #6ca6e5,
+        secondary: #d4e5f7,
+        accent: #267dd9,
+    ),
+    dark: (text: #f7f9fd,
+        background: #02070d,
+        primary: #1a5593,
+        secondary: #08192b,
+        accent: #267dd9,
+    ),
+);
