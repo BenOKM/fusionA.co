@@ -1,14 +1,11 @@
 @import '../utils/font';
 @import '../utils/theme';
 
-$light-theme: map-get($themes, light);
-$dark-theme: map-get($themes, dark);
-
 body {
     margin: 0;
     padding: 0;
 }
 
 p {
-    color: map-get($light-theme, primary);
+    color: map-get($theme-light, primary);
 }

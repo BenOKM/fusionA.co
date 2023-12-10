@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:700|Poppins:400');
-
-body {
-    font-family: 'Poppins';
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; // fix for Chrome 
     font-weight: 400;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: InterVariable, sans-serif;
+    }
 }
 
 h1,
@@ -10,41 +15,34 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Poppins';
+    font-family: Inter, 'sans-serif';
     font-weight: 700;
 }
 
 html {
-    font-size: 100%;
+    font-size: 100%; // 16px 
 }
 
-/* 16px */
 h1 {
-    font-size: 4.210rem;
-    /* 67.36px */
+    font-size: 4.210rem; // 67.36px
 }
 
 h2 {
-    font-size: 3.158rem;
-    /* 50.56px */
+    font-size: 3.158rem; // 50.56px
 }
 
 h3 {
-    font-size: 2.369rem;
-    /* 37.92px */
+    font-size: 2.369rem; // 37.92px
 }
 
 h4 {
-    font-size: 1.777rem;
-    /* 28.48px */
+    font-size: 1.777rem; // 28.48px
 }
 
 h5 {
-    font-size: 1.333rem;
-    /* 21.28px */
+    font-size: 1.333rem; // 21.28px
 }
 
 small {
-    font-size: 0.750rem;
-    /* 12px */
+    font-size: 0.750rem; // 12px
 }
